@@ -1,4 +1,4 @@
-QCMCam 2 est un projet de réécriture de (QCMCam)[https://qcmcam.net]
+QCMCam 2 est un projet de réécriture de https://qcmcam.net
 
 QCMCam est un outil de sondage par QCM et carton de vote.
 
