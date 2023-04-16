@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/qcmcam.css">
+    <script type="module" src="js/qcmcam.js"></script>
+    <link rel="stylesheet" href="css/fonts/remixicon.css">
+    <title>QCMCam bienvenue</title>
+</head>
+<body>
+    <div class="w3-bar w3-orange">
+        <img src="images/QCMCam-logo.png" alt="logo qcmcam" class="w3-left" style="height: 2.5em;width:auto">
+        <button class="w3-bar-item w3-hover-black w3-orange" id="btn-start">À propos</button>
+        <button class="w3-bar-item w3-hover-black w3-orange" id="btn-connect">Connexion</button>
+        <button class="w3-bar-item w3-hover-black w3-orange" id="btn-newuser">Inscription</button>
+        <button class="w3-bar-item w3-hover-black w3-orange" id="btn-openusage">Usage libre</button>
+        <button class="w3-bar-item w3-hover-black w3-orange" id="btn-markers">Marqueurs</button>
+    </div>
+    <div id="qm-start" class="tab">
+        <div class="w3-row" style="margin: 6em;">
+            <div class="w3-third w3-right-align"><img src="images/QCMCam-logobig.png" alt="logo QCMCam" class="w3-image"></div>
+            <div class="w3-twothird w3-container">
+                <h2>Amusez-vous !</h2>
+                <p>Animez vos cours à l'aide de cette application web qui vous permet de sonder rapidement une classe à l'aide d'une webcam ou d'un smartphone&nbsp;!</p>
+                <button class="w3-button w3-hover-orange w3-white w3-border w3-border-red w3-round-large" id="btn-about">En savoir plus</button>
+            </div>
+        </div>
+        <div class="w3-row" style="margin: 6em;">
+            <div class="w3-twothird w3-container w3-right-align">
+                <h2>Créez vos questionnaires</h2>
+                <p>Un éditeur simple de questions et réponses vous permet de créer dimplement vos questionnaires. Vous pouvez également aller piocher dans la bibliothèque existante pour aller encore plus vite.</p>
+            </div>
+            <div class="w3-third"><img src="images/undraw_content_creator_re_pt5b.svg" alt="logo QCMCam" class="w3-image" style="height:100%;max-height:200px;"></div>
+        </div>
+        <div class="w3-row" style="margin: 6em;">
+            <div class="w3-third w3-right-align"><img src="images/undraw_team_re_0bfe.svg" alt="logo QCMCam" class="w3-image" style="height:100%;max-height:200px;"></div>
+            <div class="w3-twothird w3-container">
+                <h2>Gérez vos groupes</h2>
+                <p>Créez vos groupes de travail facilement en les important depuis vos outils de travail comme pronote. Affectez leur des marqueurs et le tour est joué.</p>
+            </div>
+        </div>
+
+        <div class="w3-row" style="margin: 6em;">
+            <div class="w3-twothird w3-container w3-right-align">
+                <h2>Analysez les résultats</h2>
+                <p>Récupérez les résultats des sondages pour évaluer vos élèves.</p>
+            </div>
+            <div class="w3-third"><img src="images/undraw_performance_overview_re_mqrq.svg" alt="logo QCMCam" class="w3-image" style="height:100%;max-height:200px;"></div>
+        </div>
+    </div>
+    <div id="qm-newuser" class="w3-hide tab">
+        <div class="w3-row">
+            <div class="w3-col s2">
+                <div class="w3-bar w3-pink w3-padding-small">Vos questionnaires</div>
+            </div>
+            <div class="w3-col s10">
+                <div class="bar w3-purple w3-padding-small">Questions</div>
+            </div>
+        </div>
+    </div>
+    <div id="qm-markers" class="w3-hide tab">
+        <div class="w3-container">
+            <img src="images/marqueurs.png" alt="4 marqueurs QCMCam" class="w3-right w3-third">
+            <h1>Marqueurs</h1>
+            <div class="w3-padding">
+                <p>Imprimez vos marqueurs à la bonne taille. Dans des petites salles, les marqueurs A5 conviennent largement. Dans des salles un peu plus grandes, vous pouvez imprimer sur du A4, voir du A3 pour les très longues salles.</p>
+                <p>La caméra aussi a de l'importance. Dans l'idéal c'est une caméra HD, pour plus de précision, à focale large (120°) qui pourra être installée face à votre classe et vous n'aurez ainsi pas besoin de la bouger pour scanner tout le monde.</p>
+                <p>Vous pouvez imprimer vos marqueurs et les plastifier dans des films mat pour éviter les reflets et les distribuer à chaque séance. Personnellement, je les ai distribués à chaque élève en leur demandant de les coller sur du carton et ils le gardent dans leur cahier.</p>
+            </div>
+            <div class="w3-row-padding w3-padding">
+                <div class="w3-third">
+                    <div class="w3-card-4 w3-round-large qm-card">
+                        <header class="w3-container w3-red"><h2>30 marqueurs A5</h2></header>
+                        <div class="w3-container w3-padding">Marqueurs numérotés de 1 à 30 pour une salle de taille moyenne, notamment en profondeur, deux marqueurs par page imprimée.</div>
+                        <footer class="w3-container w3-red"><a href="docs/QCMCam marqueurs 1_30 - A5 sur A4.pdf"><h4><i class="ri-file-download-line qm-rel-top1"></i> Télécharger</h4></a></footer>
+                    </div>
+                </div>
+                <div class="w3-third">
+                    <div class="w3-card-4 w3-round-large qm-card">
+                        <header class="w3-container w3-orange"><h2>Marqueurs suppl. A5</h2></header>
+                        <div class="w3-container w3-padding">Marqueurs numérotés de 31 à 60 pour une salle de taille moyenne, notamment en profondeur, deux marqueurs par page.</div>
+                        <footer class="w3-container w3-orange"><a href="docs/QCMCam marqueurs 31_60 - A5 sur A4.pdf"><h4><i class="ri-file-download-line qm-rel-top1"></i> Télécharger</h4></a></footer>
+                    </div>
+                </div>
+                <div class="w3-third">
+                    <div class="w3-card-4 w3-round-large qm-card">
+                        <header class="w3-container w3-orange"><h2>Marqueurs suppl. A5</h2></header>
+                        <div class="w3-container w3-padding">Marqueurs numérotés de 61 à 90 pour une salle de taille moyenne, notamment en profondeur, deux marqueurs par page imprimée.</div>
+                        <footer class="w3-container w3-orange"><a href="docs/QCMCam marqueurs 61_90 - A5 sur A4.pdf"><h4><i class="ri-file-download-line qm-rel-top1"></i> Télécharger</h4></a></footer>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-row-padding w3-padding">
+                <div class="w3-third">
+                    <div class="w3-card-4 w3-round-large qm-card">
+                        <header class="w3-container w3-orange"><h2>30 marqueurs A4</h2></header>
+                        <div class="w3-container w3-padding">Marqueurs numérotés de 1 à 30 pour une salle de bonne taille, notamment en profondeur, un marqueur par page.</div>
+                        <footer class="w3-container w3-orange"><a href="docs/QCMCam marqueurs 1_30 - A4.pdf"><h4><i class="ri-file-download-line qm-rel-top1"></i> Télécharger</h4></a></footer>
+                    </div>
+                </div>
+                <div class="w3-third">
+                    <div class="w3-card-4 w3-round-large qm-card">
+                        <header class="w3-container w3-orange"><h2>Marqueurs suppl. A4</h2></header>
+                        <div class="w3-container w3-padding">Marqueurs numérotés de 31 à 90 pour une salle de taille moyenne, notamment en profondeur, deux marqueurs par page imprimée.</div>
+                        <footer class="w3-container w3-orange"><a href="docs/QCMCam marqueurs 31_90 - A4.pdf"><h4><i class="ri-file-download-line qm-rel-top1"></i> Télécharger</h4></a></footer>
+                    </div>
+                </div>
+                <div class="w3-third">
+                    <div class="w3-card-4 w3-round-large qm-card">
+                        <header class="w3-container w3-green"><h2>Générateur</h2></header>
+                        <div class="w3-container w3-padding">Lien vers le générateur de marqueurs. Pour les élèves distraits ou pour générer un marqueur à afficher sur une tablette.</div>
+                        <footer class="w3-container w3-green"><a href="generateur/index.html" target="_blank"><h4><i class="ri-external-link-line qm-rel-top1"></i> Ouvrir</h4></a></footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="qm-openusage" class="w3-hide tab">
+        <div class="w3-padding-large w3-white">
+            <div><img src="images/QCMCam-logo.png" alt="Logo QCMCam"></div>
+            <p>QCMCam est une web application (elle fonctionne depuis un navigateur internet) autonome sous licence libre. Elle permet de créer des questionnaires à choix multiple, des questionnaires à réponse multiple, des VRAI/FAUX, auxquels répondent les élèves à l'aide de marqueur papier analysés par une caméra.</p>
+            <p>Les questionnaires peuvent comporter des images, des formules de mathématiques, du son, de la vidéo. Ce type d'activité ludique permet d'augmenter l'intérêt des élèves pour venir en classe et améliorer leur écoute.</p>
+        </div>
+        <div class="w3-padding-large w3-light-grey">
+            <h1><i class="ri-copyleft-fill qm-rel-top1"></i> Licence</h1>
+            <p>QCMCam est distribué sous licence <span class="w3-tag"><a href="https://www.apache.org/licenses/LICENSE-2.0">apache 2.0</a></span>.</p>
+            <div class="w3-row-padding w3-padding">
+                <div class="w3-third">
+                    <div class="w3-card-4 w3-white w3-round-large">
+                        <header class="w3-container w3-teal">
+                            <h1>openCV.js</h1>
+                        </header>
+                        <div class="w3-container">
+                            <p><a href="https://opencv.org/">openCV</a> signifie Open Source Computer Vision, il s'agit d'un outil de reconnaissance d'image qui est utilisé ici pour repérer les marqueurs de vote.</p>
+                        </div>
+                        <footer class="w3-container w3-teal">
+                            <a href="https://opensource.org/licenses/BSD-3-Clause"><h4>3-clause BSD license</h4></a>
+                        </footer>
+                    </div>
+                </div>
+                <div class="w3-third">
+                    <div class="w3-card-4 w3-white w3-round-large">
+                        <header class="w3-container w3-teal">
+                            <h1>Aruco.js</h1>
+                        </header>
+                        <div class="w3-container">
+                            <p><a href="https://www.uco.es/investiga/grupos/ava/node/26">ArUco</a> est développé par l'université de Cordoba en Espagne. QCMCam utilice ce modèle pour ses marqueurs. Il dépend d'autres modules sous licence <span class="w3-tag">GNU</span>.</p>
+                        </div>
+                        <footer class="w3-container w3-teal">
+                            <h4><a href="https://www.freebsd.org/copyright/license/">licence BSD</a></h4>
+                        </footer>
+                    </div>    
+                </div>
+                <div class="w3-third">
+                    <div class="w3-card-4 w3-white w3-round-large">
+                        <header class="w3-container w3-teal">
+                            <h1>Download.js</h1>
+                        </header>
+                        <div class="w3-container">
+                            <p><a href="http://danml.com/download.html">Download.js</a> est une fonction qui permet de provoquer un téléchargement en javascript. La licence est attribuée à dandavis, son développeur.</p>
+                        </div>
+                        <footer class="w3-container w3-teal">
+                            <a href="http://creativecommons.org/licenses/by/4.0/"><h4>Creative Commons Attribution 4.0 International License</h4></a>
+                        </footer>
+                    </div>    
+                </div>
+            </div>
+            <div class="w3-row-padding w3-padding">
+                <div class="w3-third">
+                    <div class="w3-card-4 w3-white w3-round-large">
+                        <header class="w3-container w3-teal">
+                            <h1>Images</h1>
+                        </header>
+                        <div class="w3-container">
+                            <p>Les images de la page d'accueil sont tirées du site <a href="https://undraw.co">unDraw</a> qui propose des illustrations SVG gratuites et surtout open source. Il propose de nouvelles images régulièrement.</p>
+                        </div>
+                        <footer class="w3-container w3-teal">
+                            <a href="https://undraw.co/license"><h4>Licence Open Source personnelle</h4></a>
+                        </footer>
+                    </div>
+                </div>
+                <div class="w3-third">
+                    <div class="w3-card-4 w3-white w3-round-large">
+                        <header class="w3-container w3-teal">
+                            <h1>Icones</h1>
+                        </header>
+                        <div class="w3-container">
+                            <p>Les icones utilisée sur le site viennent de <a href="https://remixicon.com">REMIX ICON</a> qui propose des icones gratuites et open source aux formats font et svg.</p>
+                        </div>
+                        <footer class="w3-container w3-teal">
+                            <a href="https://github.com/Remix-Design/RemixIcon/blob/master/License"><h4>Licence Apache 2.0</h4></a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-padding-large w3-white">
+            <img src="images/undraw_open_source_-1-qxw.svg" alt="image open source" class="w3-right" style="max-width: 25%;">
+            <h1><i class="ri-git-repository-line qm-rel-top1"></i> Sources</h1>
+            <p>Le code source du logiciel est disponible sur la <a href="https://forge.aeif.fr/scogez/">forge gitlab hébergée par l'Éducation Nationale</a> sur le compte de scogez qui développe également MathsMentales. MathsMentales est une application opensource qui permet de travailler les automatismes en mathématiques à l'aide de diaporamas, de fiches d'exercices, de ceintures de calcul mental que l'on crée en ligne.</p>
+        </div>
+        <div class="w3-padding-large w3-light-grey">
+            <img src="images/undraw_teaching_re_g7e3.svg" alt="image open source" class="w3-left" style="max-width: 25%;">
+            <h1><i class="ri-spy-line qm-rel-top1"></i> L'auteur</h1>
+            <p>Sébastien COGEZ est professeur de Mathématiques en collège dans les pyrénées orientales. Passionné d'informatique et de partage d'outils dans l'esprit libre et open source, il développe essentiellement des outils web en javascript qui se veulent autonomes. Il a quelques connaissances SQL et php qu'il a utilisé pour développer MAthenpoche, ancêtre de <a href="https://labomep.sesamath.net/">Labomep</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
